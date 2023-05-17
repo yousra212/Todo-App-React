@@ -1,0 +1,53 @@
+.Main-Container {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    background-color: lightblue;
+    color: #0255ad;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    border: 3px solid #007bff;
+    border-radius: 5px 0 0 5px;
+    font-size: 30px;
+  }
+  
+  .form-input input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #dbdada;
+  }
+  
+  .form-input button {
+    padding: 15px;
+    font-size: 35px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /* Optional: add hover effects for the button */
+  .form-input button:hover {
+    background-color: #0069d9;
+  }
+  
+  
